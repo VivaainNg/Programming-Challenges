@@ -12,5 +12,6 @@ Repo containing my solutions for several programming challenges sites (i.e: Adve
 
 ## TODOs:
 
-[ ] Add pre-commit config for Python.
-[ ] Add unit test for each problems.
+- [ ] Add pre-commit config for Python.
+
+- [ ] Add unit test for each problems.
