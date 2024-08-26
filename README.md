@@ -7,3 +7,10 @@ Repo containing my solutions for several programming challenges sites (i.e: Adve
 | ----------|
 | [Advent of Code](https://github.com/VivaainNg/Programming-Challenges/tree/main/advent-of-code)|
 | [Project Euler](https://github.com/VivaainNg/Programming-Challenges/tree/main/project-euler) |
+
+
+
+## TODOs:
+
+[ ] Add pre-commit config for Python.
+[ ] Add unit test for each problems.
