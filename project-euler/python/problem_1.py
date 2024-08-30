@@ -1,3 +1,4 @@
+from __future__ import annotations
 
 
 def solve(n: int) -> int:
@@ -9,8 +10,6 @@ def solve(n: int) -> int:
     return ans
 
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     # Problem 1"
-    # TODO: Add test cases 
     print(solve(1000))
