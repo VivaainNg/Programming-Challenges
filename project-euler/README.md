@@ -18,10 +18,7 @@ Directory structure:
 python
 ├── solution
 │   ├── __init__.py
-│   ├── problem_1.py
-│   └── __pycache__
-│       ├── __init__.cpython-310.pyc
-│       └── problem_1.cpython-310.pyc
+│   └── problem_1.py
 └── tests.py
 ```
 
