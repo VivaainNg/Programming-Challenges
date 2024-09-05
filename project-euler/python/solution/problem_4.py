@@ -15,8 +15,6 @@ def solve(n: int) -> int:
     - (10 x 10)
     """
 
-    # TODO: Optimize this to find a better solution
-
     startNum = 10 ** (n-1)
     endNum = 10 ** n
     ans = 0
@@ -28,10 +26,15 @@ def solve(n: int) -> int:
             if str(product)[::-1] == str(product):
                 ans = max(ans, product)
 
+    # TODO: Optimize this to find a better solution
+    # If you print the above iterations, you would notice that
+    # when i = 99 & j = 10, produce similar results as
+    # when j = 10 & i = 99. Try to reduce redundant counting
+    # like these.
+
     return ans
 
 
 if __name__ == '__main__':
-    # ans = solve(2)
-    ans = solve(3)
+    ans = solve(2)
     print(ans)
