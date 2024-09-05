@@ -33,5 +33,5 @@ $ python python/solution/problem_3.py
 
 * If you're trying to run the entire test suite encompassing ALL problems, you run as follows:
 ```sh
-$ python python/tests.py
+$ python python/tests.py -v
 ```
