@@ -31,7 +31,13 @@ Depending on what you're trying to run/test, you can do the following:
 $ python python/solution/problem_3.py
 ```
 
-* If you're trying to run the entire test suite encompassing ALL problems, you run as follows:
+* If you're trying to run the test suite encompassing ALL Project Euler's problems,
+* (i) From project-euler/ root, you run as follows:
 ```sh
-$ python python/tests.py -v
+$ python -m unittest -v
+```
+
+* (i) From root of this repo, you run as follows:
+```sh
+$ python -m unittest discover ./project-euler/python -v
 ```

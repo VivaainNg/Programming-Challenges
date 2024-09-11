@@ -33,4 +33,4 @@ jobs:
         pre-commit run --all-files
     - name: Test with unittest for subdirs (AoC, project Euler, etc...)
       run: |
-        python project-euler/python/tests.py -v
+        python -m unittest discover ./project-euler/python -v
