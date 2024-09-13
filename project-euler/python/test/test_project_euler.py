@@ -21,6 +21,7 @@ class TestProjectEuler(unittest.TestCase):
     def test_2(self):
         """Problem 2 test case"""
         self.assertEqual(10, solve_2(10))
+        self.assertEqual(44, solve_2(100))
         self.assertEqual(4613732, solve_2(4000000))
 
     def test_4(self):

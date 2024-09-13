@@ -12,26 +12,26 @@ def solve(n: int) -> int:
     # Initial two values:
     # fib[0] = 1
     # fib[1] = 2
-    # fib[2] = 3...
+    # fib[2] = 3  # starts with index i=2
     fib.append(1)
     fib.append(2)
     i = 2
 
+    ans = 2  # Based on even numbers initialized for 1st two values
+
     while True:
         fib_i = fib[i-2] + fib[i-1]
 
-        # We consider n to be limit of the Fibonacci's term
+        # As long as final Fibonacci's value in array doesn't exceed n
         if fib_i < n:
             fib.append(fib_i)
             i += 1
         else:
             break
 
-    # Compute sum of even numbers
-    ans = 0
-    for i in fib:
-        if i % 2 == 0:
-            ans += i
+        # Compute sum of even numbers
+        if fib_i % 2 == 0:
+            ans += fib_i
 
     return ans
 
