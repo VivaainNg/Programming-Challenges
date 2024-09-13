@@ -19,15 +19,12 @@ def solve(n: int) -> int:
 
     ans = 2  # Based on even numbers initialized for 1st two values
 
-    while True:
-        fib_i = fib[i-2] + fib[i-1]
+    # As long as Fibonacci's value in array doesn't exceed n
+    while fib[i-2] + fib[i-1] < n:
 
-        # As long as final Fibonacci's value in array doesn't exceed n
-        if fib_i < n:
-            fib.append(fib_i)
-            i += 1
-        else:
-            break
+        fib_i = fib[i-2] + fib[i-1]
+        fib.append(fib_i)
+        i += 1
 
         # Compute sum of even numbers
         if fib_i % 2 == 0:
