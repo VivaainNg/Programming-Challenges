@@ -3,6 +3,7 @@ from __future__ import annotations
 import unittest
 
 from solution.problem_1 import solve as solve_1
+from solution.problem_16 import solve as solve_16
 from solution.problem_2 import solve as solve_2
 from solution.problem_4 import solve as solve_4
 from solution.problem_6 import solve as solve_6
@@ -33,6 +34,11 @@ class TestProjectEuler(unittest.TestCase):
         """Problem 6 test case"""
         self.assertEqual(2640, solve_6(10))
         self.assertEqual(25164150, solve_6(100))
+
+    def test_16(self):
+        """Problem 16 test case"""
+        self.assertEqual(26, solve_16(15))
+        self.assertEqual(1366, solve_16(1000))
 
 
 if __name__ == '__main__':
