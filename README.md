@@ -1,3 +1,6 @@
+
+[![Python](https://github.com/VivaainNg/Programming-Challenges/actions/workflows/python-cicd.yml/badge.svg)](https://github.com/VivaainNg/Programming-Challenges/actions/workflows/python-cicd.yml)
+
 # Programming-Challenges
 Repo containing my solutions for several programming challenges sites (i.e: Advent of Code, Project Euler, etc...)
 
@@ -14,4 +17,4 @@ Repo containing my solutions for several programming challenges sites (i.e: Adve
 
 - [x] Add pre-commit config for Python.
 
-- [ ] Add unit test for each problems.
+- [x] Add unit test for each problems.
