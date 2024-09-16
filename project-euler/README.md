@@ -1,3 +1,6 @@
+[![Python application](https://github.com/VivaainNg/Programming-Challenges/actions/workflows/python-cicd.yml/badge.svg)](https://github.com/VivaainNg/Programming-Challenges/actions/workflows/python-cicd.yml)
+
+
 ## Project Euler
 
 If you're interested to explore more about Project Euler challenges, head over to: https://projecteuler.net/
