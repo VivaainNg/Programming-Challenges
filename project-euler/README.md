@@ -19,7 +19,9 @@ python
 ├── solution
 │   ├── __init__.py
 │   └── problem_1.py
-└── tests.py
+└── test
+    ├── __init__.py
+    └── test_project_euler.py
 ```
 
 
