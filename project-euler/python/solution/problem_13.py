@@ -12,7 +12,7 @@ def solve(num: str) -> int:
     lines = list(num.split('\n'))
 
     # Format into list containing integer, and sum them up
-    total = sum([int(line) for line in lines if line])
+    total = sum([int(line) for line in lines if line.strip()])
 
     # Returns only the first 10 digit
     ans = str(total)[:10]
