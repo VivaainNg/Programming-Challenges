@@ -12,6 +12,11 @@ Repo containing my solutions for several programming challenges sites (i.e: Adve
 | [Project Euler](https://github.com/VivaainNg/Programming-Challenges/tree/main/project-euler) |
 
 
+# Preamble
+For Python, you'd definitely wanna use a virtual env/venv. It's not required to run the code/tests, it's only for running pre-commit. At the root of this repo, simply run
+```
+$ pip install -r requirements.txt
+```
 
 ## TODOs:
 
