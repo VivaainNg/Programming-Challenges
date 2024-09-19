@@ -8,6 +8,7 @@ from solution.problem_16 import solve as solve_16
 from solution.problem_2 import solve as solve_2
 from solution.problem_20 import solve as solve_20
 from solution.problem_4 import solve as solve_4
+from solution.problem_48 import solve as solve_48
 from solution.problem_6 import solve as solve_6
 
 
@@ -152,6 +153,11 @@ class TestProjectEuler(unittest.TestCase):
         """Problem 20 test case"""
         self.assertEqual(27, solve_20(10))
         self.assertEqual(648, solve_20(100))
+
+    def test_48(self):
+        """Problem 48 test case"""
+        self.assertEqual('0405071317', solve_48(10))
+        self.assertEqual('9110846700', solve_48(1000))
 
 
 if __name__ == '__main__':
