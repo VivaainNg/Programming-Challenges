@@ -34,3 +34,4 @@ jobs:
     - name: Test with unittest for subdirs (AoC, project Euler, etc...)
       run: |
         python -m unittest discover ./project-euler/python -v
+        python -m unittest discover ./advent-of-code/python -v

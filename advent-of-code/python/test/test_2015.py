@@ -2,14 +2,14 @@ from __future__ import annotations
 
 import unittest
 
-from solution.day1 import solve as solve_1
+from year2015.day1 import solve as solve1
 
 
 class TestAOC2015(unittest.TestCase):
     """
-    Test suite for year 2015.
+    Entire test suite of year 2015.
     """
 
-    def test_day1(self):
+    def test_1(self):
         """Day 1 test case"""
-        self.assertEqual(123, solve_1())
+        self.assertEqual(23, solve1())
