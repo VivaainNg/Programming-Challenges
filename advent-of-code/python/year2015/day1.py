@@ -8,9 +8,9 @@ def solve(data: str) -> int:
     data = data.strip()
 
     for i in data:
-        if i == "(":
+        if i == '(':
             ans += 1
-        elif i == ")":
+        elif i == ')':
             ans -= 1
 
     return ans
