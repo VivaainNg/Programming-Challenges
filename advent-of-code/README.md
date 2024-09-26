@@ -11,13 +11,18 @@ I've solved each problem for each file, based on problem's ID. I.e: Python solut
 
 Directory structure:
 ```sh
+├── inputs
+│   └── 2015
+│       ├── day1_1.txt
+|       └── day1_1.txt
 └── python
     ├── test
     │   ├── __init__.py
     │   └── test_2015.py
     └── year2015
         ├── __init__.py
-        └── day1.py
+        ├── day1_1.py
+        └── day1_2.py
 ```
 
 
